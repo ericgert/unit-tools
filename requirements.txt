@@ -1,5 +1,6 @@
 streamlit
 extra-streamlit-components
 streamlit-js-eval
-google-cloud-firestore
+google-cloud-bigquery
 google-cloud-storage
+yagmail

@@ -1,0 +1,12 @@
+INFO:__main__:logging initialized
+INFO:__main__:page initialized
+INFO:__main__:logging initialized
+INFO:__main__:page initialized
+INFO:__main__:logging initialized
+INFO:__main__:page initialized
+INFO:__main__:fetching auth cookie
+WARNING:__main__:cookie not found
+INFO:__main__:logging initialized
+INFO:__main__:page initialized
+INFO:__main__:fetching auth cookie
+WARNING:__main__:cookie not found
