@@ -1,4 +1,5 @@
 import streamlit as st
+import ut_utils
 import extra_streamlit_components as stx
 from streamlit_js_eval import streamlit_js_eval
 
@@ -8,14 +9,8 @@ st.write("Unit Tools Home")
 import datetime
 st.write("# Cookie Manager")
 
-#@st.cache_resource
-def get_manager():
-    return stx.CookieManager()
-
-cookie_manager = get_manager()
-
 st.subheader("All Cookies:")
-cookies = cookie_manager.get_all()
+cookies = ut_utils.get_all_cookies()
 st.write(cookies)
 
 c1, c2, c3 = st.columns(3)
