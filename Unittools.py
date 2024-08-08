@@ -54,11 +54,11 @@ def main():
         email = 'eric.gert@gmail.com'
         rc, message = auth_utils.add_auth_cookie(logger, email)
 
-    if not rc:
-        st.write(f":red[{message}]")
-        st.stop()
+        if not rc:
+            st.write(f":red[{message}]")
+            st.stop()
     
-    logger.info(f'added user cookie for {email}')
+        logger.info(f'added user cookie for {email}')
 
 
 
