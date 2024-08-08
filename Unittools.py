@@ -33,9 +33,6 @@ def init_page():
     )
 
 
-
-
-
 def main():
 
     #initialize logging
